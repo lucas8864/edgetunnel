@@ -26,7 +26,7 @@ jobs:
           git config user.name "GH Action - Upstream Sync"
           git config user.email "action@github.com"
 
-          git remote add upstream https://github.com/cmliu/edgetunnel.git
+          git remote add upstream https://github.com/lucas8864/edgetunnel.git
           git fetch upstream main
 
           if git diff --quiet HEAD upstream/main; then
